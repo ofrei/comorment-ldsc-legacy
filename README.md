@@ -29,8 +29,8 @@ usage: ldsc.py [-h] [--out OUT] [--bfile BFILE] [--l2] [--extract EXTRACT]
   #SBATCH --cpus-per-task=1
   #SBATCH --mem-per-cpu=8000M
   module load singularity/2.6.1
- singularity exec --no-home   ldsc.sif /ldsc/ldsc.py -h
-singularity exec --no-home -B $(pwd):/data   ldsc.sif /ldsc/ldsc.py --bfile /data/chr21 --l2 --ld-wind-cm 1  --out /data/OUT
+  singularity exec --no-home   ldsc.sif /ldsc/ldsc.py -h
+  singularity exec --no-home -B $(pwd):/data   ldsc.sif /ldsc/ldsc.py --bfile /data/chr21 --l2 --ld-wind-cm 1  --out /data/OUT
   ```
 
 Please [let us know](https://github.com/comorment/demo/issues/new) if you face any problems.

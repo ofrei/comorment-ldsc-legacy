@@ -1,7 +1,6 @@
 # Running LD SCore on Singularity container
 
-A tutorial on how to run LD SCore (https://github.com/bulik/ldsc) on Singularity container. In order to see how to install and run singularity container see [here]
-
+A tutorial on how to run LD SCore (https://github.com/bulik/ldsc) on Singularity container. 
 ## Getting Started
 
 * Download ``ldsc.sif``  and  ``hello_demo.tar.gz`` files from [here](https://drive.google.com/drive/folders/1mfxZJ-7A-4lDlCkarUCxEf2hBIxQGO69?usp=sharing)

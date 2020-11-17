@@ -3,7 +3,7 @@
 A tutorial on how to run LD SCore (https://github.com/bulik/ldsc) on Singularity container. 
 ## Getting Started
 
-* Download ``ldsc.sif``  and  ``hello_demo.tar.gz`` files from [here](https://drive.google.com/drive/folders/1mfxZJ-7A-4lDlCkarUCxEf2hBIxQGO69?usp=sharing)
+* Download ``ldsc.sif``  (placed in ldsc_v1.1) and  ``hello_demo.tar.gz`` files from [here](https://drive.google.com/drive/folders/1mfxZJ-7A-4lDlCkarUCxEf2hBIxQGO69?usp=sharing)
 * Import both files to your secure HPC environment (i.e. TSD, Bianca, Computerome, or similar).
 * Run ``tar -xzvf hello_demo.tar.gz`` to extract demo data.
 * Import both files to your secure HPC environment (i.e. TSD, Bianca, Computerome, or similar).

@@ -29,9 +29,9 @@ RUN conda install  pandas
 RUN conda install matplotlib
 RUN conda install scipy
 
-# download lastest LDSC
+
+COPY install_ldsc.sh /scripts
+RUN chmod +x install_ldsc.sh
+RUN bash install_ldsc.sh
+
 WORKDIR /home
-RUN git clone https://github.com/bulik/ldsc.git
-WORKDIR /
-# put ldsc on path
-ENV PATH /home/ldsc:$PATH
